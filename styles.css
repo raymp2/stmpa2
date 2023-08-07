@@ -1,0 +1,73 @@
+body {
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #006ea5, #8A2BE2);
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #006ea5, #8A2BE2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+button {
+    color: #fff;
+    background-color: #1565C0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0D47A1;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content h1 .highlight {
+    color: #FF5733;
+}
+
+p {
+    font-size: 18px;
+}
+
+strong {
+    color: #278cff;
+}
+
+strong:nth-of-type(2) {
+    color: #c934e4;
+}
+
+strong:last-of-type {
+    color: #4CAF50;
+}
+
+.social-links img {
+    width: 50px;
+    /* Ajusta el ancho deseado para los logotipos */
+    height: 50px;
+    /* Ajusta la altura deseada para los logotipos */
+}
